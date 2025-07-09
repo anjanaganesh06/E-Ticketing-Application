@@ -1,0 +1,9 @@
+javac -cp "lib\mysql-connector-j-9.3.0.jar" -d bin ^
+Main.java ^
+src\controller\*.java ^
+src\model\*.java ^
+src\view\*.java ^
+database\DatabaseConnection.java
+
+
+java -cp "bin;lib\mysql-connector-j-9.3.0.jar" Main
